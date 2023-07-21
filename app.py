@@ -43,7 +43,7 @@
 #         st.sidebar.download_button("⬇️ Download  ⬇️", data=decompressed_file, file_name=file_path)
 #         st.success("File decompressed successfully.")
 import streamlit as st
-from Huffman_Coding import fun
+import Huffman_Coding 
 
 st.set_page_config(
     page_title="File Compression",
@@ -66,7 +66,7 @@ if uploaded_file is not None:
     text = uploaded_file.read().decode("utf-8")
 
     # Perform compression and decompression
-    compress_file, decompress_file = fun(text)
+    compress_file, decompress_file = Huffman_Coding.fun(text)
 
     if btn1:
         st.sidebar.download_button("⬇️ Download ⬇️ ", data=compress_file, file_name="compressed_file.bin")
