@@ -169,4 +169,3 @@ def fun(text):
     return compress_file , decompress_file
 
 
-fun("huffman.txt")
