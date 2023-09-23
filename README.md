@@ -1,3 +1,3 @@
 # File-Compressor
-File Compressor is Web App helps to reduce size of text file with reduction around 40% of original size
-App Link : https://file-compression.streamlit.app/
+File Compressor 📂 is a Web App that helps to reduce the size of text files with a reduction of around 40% of the original size. <br>
+App Link: https://file-compression.streamlit.app/
